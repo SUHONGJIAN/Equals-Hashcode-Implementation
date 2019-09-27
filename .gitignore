@@ -1,0 +1,8 @@
+#ignore all .java~ files
+*.java~
+
+#ignore all .class~ files
+*.class
+
+#ignore .gitignore~
+*.gitignore~

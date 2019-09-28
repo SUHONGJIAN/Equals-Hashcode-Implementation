@@ -1,6 +1,6 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
-public class Estuary extends SaltWater {
+public abstract class Estuary extends SaltWater {
 
     private static final int DEFAULT_CONNECTEDWATERBODIESCOUNT = 0;
 

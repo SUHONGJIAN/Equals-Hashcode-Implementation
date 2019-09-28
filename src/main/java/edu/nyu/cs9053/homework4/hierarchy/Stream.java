@@ -1,6 +1,6 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
-public class Stream extends FreshWater {
+public abstract class Stream extends FreshWater {
 
     private static final int DEFAULT_CONNECTEDWATERBODIESCOUNT = 0;
 

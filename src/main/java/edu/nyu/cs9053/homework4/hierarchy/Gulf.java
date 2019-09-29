@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**
+ * a concrete class {@code Gulf} extends from {@literal BodyOfWater - SaltWater - Estuary}
+ * @author Hongjian Su                                                                      
+ * @version 1.0                                                                            
+ */
 public class Gulf extends Estuary {
 
-    private final double area;
+    private final double area;   //a specific instance field for type Gulf.
 
     public Gulf(String name, double volume, double area) {
         super(name, volume);

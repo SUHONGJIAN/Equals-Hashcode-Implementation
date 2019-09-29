@@ -1,5 +1,10 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                             
+ * an abstract class {@code Estuary} extends from {@literal BodyOfWater - SaltWater}          
+ * @author Hongjian Su                                                                          
+ * @version 1.0							  
+ */
 public abstract class Estuary extends SaltWater {
 
     private static final int DEFAULT_CONNECTEDWATERBODIESCOUNT = 0;
@@ -20,10 +25,16 @@ public abstract class Estuary extends SaltWater {
 	this.flow = flow;
     }
 
+    /**
+     * @return the number of connected bodies water for Estuary and its sub-types
+     */
     public int getConnectedWaterBodiesCount() {
 	return connectedWaterBodiesCount;
     }
 
+    /**                                                                                         
+     * @return the flow of connected bodies water for Estuary and its sub-types                 
+     */
     public double getFlow() {
 	return flow;
     }

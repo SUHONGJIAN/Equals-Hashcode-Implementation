@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                               
+ * a concrete class {@code Spring} extends from {@literal BodyOfWater - FreshWater}
+ * @author Hongjian Su 
+ * @version 1.0
+ */
 public class Spring extends FreshWater {
 
-    private final String altitude;
+    private final String altitude;   //a specific instance field for type Spring.
 
     public Spring(String name, double volume, String altitude) {
         super(name, volume);

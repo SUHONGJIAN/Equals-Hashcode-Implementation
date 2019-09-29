@@ -1,3 +1,10 @@
+package edu.nyu.cs9053.homework4;
+
+/**
+ * a enum type {@code OceanName} represents the five Ocean names of the world
+ * @author Hongjian Su
+ * @version 1.0
+ */
 public enum OceanName {
 
     ATLANTIC(106400000.0),
@@ -10,19 +17,26 @@ public enum OceanName {
 
     SOUTHERN(20327000.0);
     
-    private final double area;
+    private final double area;   //unit of measurement: square kilometers
 
     private OceanName(double area) {
 	this.area = area;
     }
 
+    /**
+     * @return the area as a {@literal double}
+     */
     public double getArea() {
 	return area;
     }
 
+    /**
+     * @param multiple OceanName Objects
+     * {@code print} each Object's area
+     */
     public static void print(OceanName ... oceans) {
 	for (OceanName ocean: oceans) {
-	    System.out.printf("%d%n", ocean.getArea());
+	    System.out.printf("%,.2f%n", ocean.getArea());
 	}
     }
 }

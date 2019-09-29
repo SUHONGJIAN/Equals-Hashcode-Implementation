@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                      
+ * a concrete class {@code Creek} extends from {@literal BodyOfWater - FreshWater - Stream}
+ * @author Hongjian Su 
+ * @version 1.0 
+ */
 public class Creek extends Stream {
 
-    private final double averageBreadth;
+    private final double averageBreadth;   //a specific instance field for type Creek.
 
     public Creek(String name, double volume, double averageBreadth) {
         super(name, volume);

@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                
+ * a concrete class {@code Puddle} extends from {@literal BodyOfWater - FreshWater}
+ * @author Hongjian Su 
+ * @version 1.0 
+ */
 public class Puddle extends FreshWater {
 
-    private final String size;
+    private final String size;   //a specific instance field for type Puddle.
 
     public Puddle(String name, double volume, String size) {
         super(name, volume);

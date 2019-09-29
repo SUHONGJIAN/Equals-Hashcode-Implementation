@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                        
+ * a concrete class {@code Brook} extends from {@literal BodyOfWater - FreshWater - Stream}
+ * @author Hongjian Su
+ * @version 1.0
+ */
 public class Brook extends Stream {
 
-    private final String flowDirection;
+    private final String flowDirection;   //a specific instance field for type Brook.
 
     public Brook(String name, double volume, String flowDirection) {
         super(name, volume);

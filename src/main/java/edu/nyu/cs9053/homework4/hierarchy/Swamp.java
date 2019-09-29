@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**
+ * a concrete class {@code Swamp} extends from {@literal BodyOfWater - FreshWater}
+ * @author Hongjian Su 
+ * @version 1.0
+ */
 public class Swamp extends FreshWater {
 
-    private final int numberOfPlants;
+    private final int numberOfPlants;   //a specific instance field for type Swamp.
 
     public Swamp(String name, double volume, int numberOfPlants) {
         super(name, volume);

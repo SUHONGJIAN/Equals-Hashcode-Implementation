@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                     
+ * a concrete class {@code Tarn} extends from {@literal BodyOfWater - FreshWater - Lake}
+ * @author Hongjian Su 
+ * @version 1.0
+ */
 public class Tarn extends Lake {
 
-    private final String whichMountain;
+    private final String whichMountain;   //a specific instance field for type Tarn.
 
     public Tarn(String name, double volume, String whichMountain) {
         super(name, volume);

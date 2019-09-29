@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                      
+ * a concrete class {@code Tributary} extends from {@literal BodyOfWater - FreshWater - Stream}
+ * @author Hongjian Su
+ * @version 1.0
+ */
 public class Tributary extends Stream {
 
-    private final String destinationRiver;
+    private final String destinationRiver;   //a specific instance field for type Tributary.
 
     public Tributary(String name, double volume, String destinationRiver) {
         super(name, volume);

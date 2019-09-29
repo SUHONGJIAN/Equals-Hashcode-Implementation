@@ -6,3 +6,9 @@
 
 #ignore .gitignore~
 *.gitignore~
+
+#ignore Test.java
+Test.java
+
+#ignore .xind files
+*.xmind

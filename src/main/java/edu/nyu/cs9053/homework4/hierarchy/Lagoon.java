@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                              
+ * a concrete class {@code Lagoon} extends from {@literal BodyOfWater - SaltWater - Estuary} 
+ * @author Hongjian Su
+ * @version 1.0
+ */
 public class Lagoon extends Estuary {
 
-    private final double depth;
+    private final double depth;   //a specific instance field for type Lagoon.
 
     public Lagoon(String name, double volume, double depth) {
         super(name, volume);

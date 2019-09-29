@@ -1,8 +1,13 @@
 package edu.nyu.cs9053.homework4.hierarchy;
 
+/**                                                                                     
+ * a concrete class {@code Bay} extends from {@literal BodyOfWater - SaltWater - Estuary}
+ * @author Hongjian Su
+ * @version 1.0
+ */
 public class Bay extends Estuary {
 
-    private final double radius;
+    private final double radius;   //a specific instance field for type Bay.
 
     public Bay(String name, double volume, double radius) {
         super(name, volume);
